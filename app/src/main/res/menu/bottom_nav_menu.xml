@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    bottom_nav_menu.xml
+    Menu de la barre de navigation inférieure.
+    Définit les 4 onglets de l'application.
+
+    Tes collègues utiliseront les IDs :
+    - nav_accueil   → DashboardFragment
+    - nav_depenses  → DepensesFragment
+    - nav_budgets   → BudgetsFragment
+    Tu gères :
+    - nav_revenus   → RevenusFragment ✓
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Onglet Accueil (Dashboard) -->
+    <item
+        android:id="@+id/nav_accueil"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="Accueil"/>
+
+    <!-- Onglet Dépenses -->
+    <item
+        android:id="@+id/nav_depenses"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="Dépenses"/>
+
+    <!-- Onglet Revenus (TA PARTIE) -->
+    <item
+        android:id="@+id/nav_revenus"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Revenus"/>
+
+    <!-- Onglet Budgets -->
+    <item
+        android:id="@+id/nav_budgets"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Budgets"/>
+
+</menu>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    fragment_revenus.xml
+    Écran principal de la gestion des revenus.
+    Contient : carte total du mois + liste des revenus + bouton ajout (FAB)
+-->
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- Carte affichant le total des revenus du mois -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="8dp"
+            app:cardBackgroundColor="#4CAF50">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Titre de la carte -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total revenus du mois"
+                    android:textColor="#FFFFFF"
+                    android:textSize="14sp"/>
+
+                <!-- Montant total calculé automatiquement -->
+                <TextView
+                    android:id="@+id/tvTotalMois"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0 FCFA"
+                    android:textColor="#FFFFFF"
+                    android:textSize="26sp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Liste de tous les revenus -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewRevenus"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:paddingBottom="80dp"/>
+
+        <!-- Message affiché quand la liste est vide -->
+        <TextView
+            android:id="@+id/tvListeVide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aucun revenu enregistré"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="#888888"
+            android:padding="32dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <!-- Bouton flottant pour ajouter un revenu -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAjouterRevenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:contentDescription="Ajouter un revenu"
+        app:srcCompat="@android:drawable/ic_input_add"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

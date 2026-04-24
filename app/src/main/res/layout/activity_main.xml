@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    activity_main.xml
+    Layout principal de l'application.
+    Contient :
+    - Un conteneur pour afficher les Fragments (FrameLayout)
+    - Une barre de navigation en bas (BottomNavigationView)
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--
+        Conteneur principal des Fragments.
+        Chaque onglet charge un Fragment différent ici.
+        layout_weight="1" : prend tout l'espace disponible
+        au-dessus de la barre de navigation
+    -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <!--
+        Barre de navigation inférieure.
+        Permet de naviguer entre les 4 sections de l'app.
+        Le menu est défini dans res/menu/bottom_nav_menu.xml
+    -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        app:menu="@menu/bottom_nav_menu"/>
+
+</LinearLayout>
