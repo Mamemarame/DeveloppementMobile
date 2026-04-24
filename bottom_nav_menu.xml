@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="Accueil"/>
+
+    <item
+        android:id="@+id/nav_depenses"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="Dépenses"/>
+
+    <item
+        android:id="@+id/nav_revenus"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Revenus"/>
+
+    <item
+        android:id="@+id/nav_budgets"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:title="Budgets"/>
+
+</menu>
