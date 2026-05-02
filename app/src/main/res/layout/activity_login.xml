@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity"
+    android:background="@drawable/background_welcome"
+    android:layout_margin="@dimen/dim_all"
+    android:orientation="vertical">
+<EditText
+    android:id="@+id/txtLogin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/login"
+    android:layout_marginStart="@dimen/dim_left"
+    android:textColor="@color/soft_pink"
+    android:layout_marginTop="250sp"
+    android:fontFamily="sans-serif-thin"
+    android:textSize="20sp"
+
+    />
+<EditText
+    android:id="@+id/textPassword"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/password"
+    android:layout_marginStart="@dimen/dim_left"
+    android:fontFamily="sans-serif-thin"
+    android:textColor="@color/soft_pink"
+
+    />
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connect"
+        android:backgroundTint="@color/soft_pink"
+        android:layout_marginStart="@dimen/dim_left"
+        android:layout_marginEnd="@dimen/dim_right"
+        android:layout_marginTop="15sp"
+/>
+</androidx.appcompat.widget.LinearLayoutCompat>

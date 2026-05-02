@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DeveloppementMobile</string>
+    <string name="welcome">Welcome!</string>
+    <string name="text">"Respire, on va t'aider à finir le mois sans appeler tes parents."</string>
+    <string name="login">Login</string>
+    <string name="password">Mot de passe</string>
+    <string name="connect">Se connecter</string>
+    <string name="ready">Prêt à se connecter</string>
+
+</resources>

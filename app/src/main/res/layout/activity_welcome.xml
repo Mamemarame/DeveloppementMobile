@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/dim_all"
+    android:background="@drawable/background_welcome"
+
+
+tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:layout_marginTop="@dimen/dim_top"
+        android:layout_marginBottom="20dp"
+        android:textSize="@dimen/dim_title"
+        android:textColor="@color/soft_pink"
+        android:gravity="center"
+        android:fontFamily="cursive"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text"
+        android:layout_marginLeft="@dimen/dim_left"/>
+
+    <Button
+        android:id="@+id/btnReady"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ready"
+        android:layout_marginStart="@dimen/dim_left"
+        android:layout_marginEnd="@dimen/dim_right"
+        android:backgroundTint="@color/soft_pink"
+    />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
