@@ -1,0 +1,37 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color milk_white
+color soft_pink
+color white
+dimen dim_all
+dimen dim_bottom
+dimen dim_left
+dimen dim_middle
+dimen dim_right
+dimen dim_title
+dimen dim_top
+drawable background_welcome
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id btnConnect
+id btnReady
+id main
+id textPassword
+id txtLogin
+layout activity_login
+layout activity_main
+layout activity_welcome
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string connect
+string login
+string password
+string ready
+string text
+string welcome
+style Base.Theme.DeveloppementMobile
+style Theme.DeveloppementMobile
+xml backup_rules
+xml data_extraction_rules

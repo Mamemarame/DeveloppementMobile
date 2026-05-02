@@ -1,0 +1,7 @@
+sn.esmt.developpementmobile.app-pngs-0 C:\Users\HP\AndroidStudioProjects\DeveloppementMobile\app\build\generated\res\pngs\debug
+sn.esmt.developpementmobile.app-updated_navigation_xml-1 C:\Users\HP\AndroidStudioProjects\DeveloppementMobile\app\build\generated\updated_navigation_xml\debug
+sn.esmt.developpementmobile.app-packageDebugResources-2 C:\Users\HP\AndroidStudioProjects\DeveloppementMobile\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+sn.esmt.developpementmobile.app-packageDebugResources-3 C:\Users\HP\AndroidStudioProjects\DeveloppementMobile\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+sn.esmt.developpementmobile.app-debug-4 C:\Users\HP\AndroidStudioProjects\DeveloppementMobile\app\build\intermediates\merged_res\debug\mergeDebugResources
+sn.esmt.developpementmobile.app-debug-5 C:\Users\HP\AndroidStudioProjects\DeveloppementMobile\app\src\debug\res
+sn.esmt.developpementmobile.app-main-6 C:\Users\HP\AndroidStudioProjects\DeveloppementMobile\app\src\main\res
